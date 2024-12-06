@@ -12912,7 +12912,7 @@ var _self =
                                                       isDisabled: !1,
                                                   });
                                         },
-                                    }[(0, f.getType)(t).toLowerCase()]());
+                                    })[(0, f.getType)(t).toLowerCase()]();
                                 }),
                                 (t.prototype._findAndSelectChoiceByValue =
                                     function (t) {
@@ -20698,8 +20698,8 @@ var _self =
                                             }
                                         return i;
                                     });
-                            }.call(this));
-                        }.call(
+                            }).call(this);
+                        }).call(
                             this,
                             "undefined" != typeof global
                                 ? global
@@ -20708,7 +20708,7 @@ var _self =
                                 : "undefined" != typeof window
                                 ? window
                                 : {}
-                        ));
+                        );
                     },
                     {},
                 ],
@@ -55259,8 +55259,8 @@ function svgMapWrapper(t) {
                                         : t.fireEvent("on" + e, l);
                                 },
                             });
-                    }.call(this));
-                }.call(
+                    }).call(this);
+                }).call(
                     this,
                     "undefined" != typeof global
                         ? global
@@ -55269,7 +55269,7 @@ function svgMapWrapper(t) {
                         : "undefined" != typeof window
                         ? window
                         : {}
-                ));
+                );
             },
             { "./eventmap": 6, "custom-event": 7 },
         ],
@@ -55283,8 +55283,8 @@ function svgMapWrapper(t) {
                             r = /^on/;
                         for (i in t) r.test(i) && n.push(i.slice(2));
                         e.exports = n;
-                    }.call(this));
-                }.call(
+                    }).call(this);
+                }).call(
                     this,
                     "undefined" != typeof global
                         ? global
@@ -55293,7 +55293,7 @@ function svgMapWrapper(t) {
                         : "undefined" != typeof window
                         ? window
                         : {}
-                ));
+                );
             },
             {},
         ],
@@ -55351,8 +55351,8 @@ function svgMapWrapper(t) {
                                       n
                                   );
                               };
-                    }.call(this));
-                }.call(
+                    }).call(this);
+                }).call(
                     this,
                     "undefined" != typeof global
                         ? global
@@ -55361,7 +55361,7 @@ function svgMapWrapper(t) {
                         : "undefined" != typeof window
                         ? window
                         : {}
-                ));
+                );
             },
             {},
         ],
@@ -55923,8 +55923,8 @@ function svgMapWrapper(t) {
                                       })();
                             }
                         };
-                    }.call(this));
-                }.call(
+                    }).call(this);
+                }).call(
                     this,
                     "undefined" != typeof global
                         ? global
@@ -55933,7 +55933,7 @@ function svgMapWrapper(t) {
                         : "undefined" != typeof window
                         ? window
                         : {}
-                ));
+                );
             },
             { "./classes": 8, "contra/emitter": 4, crossvent: 5 },
         ],
@@ -56075,8 +56075,8 @@ function svgMapWrapper(t) {
                                       setTimeout(t, 0);
                                   }),
                             (e.exports = n);
-                    }.call(this));
-                }.call(this, t("timers").setImmediate));
+                    }).call(this);
+                }).call(this, t("timers").setImmediate);
             },
             { timers: 12 },
         ],
@@ -56159,12 +56159,12 @@ function svgMapWrapper(t) {
                                     : function (t) {
                                           delete s[t];
                                       });
-                    }.call(this));
-                }.call(
+                    }).call(this);
+                }).call(
                     this,
                     t("timers").setImmediate,
                     t("timers").clearImmediate
-                ));
+                );
             },
             { "process/browser.js": 10, timers: 12 },
         ],
