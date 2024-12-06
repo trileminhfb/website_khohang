@@ -8,22 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class HangHoa extends Model
 {
     use HasFactory;
-
     protected $table = 'hang_hoa';
-
     protected $guarded = ['id'];
-
-    protected $fillable = [
-
-    ];
-
-    protected $hidden = [
-
-    ];
-
-    protected $casts = [
-
-    ];
+    protected $fillable = [];
+    protected $hidden = [];
+    protected $casts = [];
 
     public function getLoaiHang()
     {
