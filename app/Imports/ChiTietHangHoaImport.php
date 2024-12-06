@@ -11,37 +11,27 @@ use Illuminate\Validation\Rules\DateFormat;
 
 class ChiTietHangHoaImport implements ToModel, WithHeadingRow, WithValidation
 {
-    /**
-    * @param array $row
-    *
-    * @return \Illuminate\Database\Eloquent\Model|null
-    */
     private $ma_phieu_nhap, $trang_thai, $ma_ncc;
-
 
     public function setMaPhieu($ma_phieu_nhap)
     {
         $this->ma_phieu_nhap = $ma_phieu_nhap;
     }
 
-
     public function setTrangThai($trang_thai)
     {
         $this->trang_thai = $trang_thai;
     }
-
 
     public function setNhaCungCap($ma_ncc)
     {
         $this->ma_ncc = $ma_ncc;
     }
 
-
-    public function headingRow() : int
+    public function headingRow(): int
     {
         return 1;
     }
-
 
     public function model(array $row)
     {
